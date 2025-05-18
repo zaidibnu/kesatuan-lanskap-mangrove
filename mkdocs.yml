@@ -1,6 +1,7 @@
 site_name: Spesifikasi IG Kesatuan Lanskap Mangrove
+username: zadidibnu
 site_description: Dokumentasi teknis spesifikasi informasi geospasial untuk KLM
-site_author: Direktorat PPEPD, MOE
+site_author: Direktorat PPEPD, Kementerian Lingkungan Hidup / Badan Perlindungan Lingkungan Hidup RI
 repo_url: https://github.com/username/spesifikasi-klm
 theme:
   name: material
