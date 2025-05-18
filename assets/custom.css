@@ -30,3 +30,46 @@
   color: #007f73 !important;
   fill: #007f73 !important;
 }
+
+/* Navbar background */
+.md-header {
+  background-color: #ffffff !important;
+}
+
+/* Teks judul dan menu navbar */
+.md-header__title,
+.md-header__title a,
+.md-tabs__link {
+  color: #005952 !important;
+}
+
+/* Ikon navbar dan tombol */
+.md-header__button,
+.md-search__icon,
+.md-nav__icon {
+  color: #005952 !important;
+  fill: #005952 !important;
+}
+
+/* Drawer menu background & teks */
+.md-nav__drawer,
+.md-nav__title,
+.md-nav {
+  background-color: #ffffff !important;
+}
+
+.md-nav__link,
+.md-nav__title {
+  color: #005952 !important;
+}
+
+.md-nav__item .md-icon svg,
+.md-source__icon svg {
+  fill: #005952 !important;
+}
+
+.md-nav__link--active,
+.md-nav__item--active > .md-nav__link {
+  color: #007f73 !important;
+  font-weight: 600;
+}
