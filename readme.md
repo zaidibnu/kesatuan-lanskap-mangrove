@@ -1,4 +1,4 @@
-#h1# 📘 Spesifikasi Informasi Geospasial Kesatuan Lanskap Mangrove (KLM)
+# 📘 Spesifikasi Informasi Geospasial Kesatuan Lanskap Mangrove (KLM)
 
 Dokumentasi ini menyajikan spesifikasi teknis penyusunan informasi geospasial untuk Kesatuan Lanskap Mangrove (KLM), sebagai acuan dalam perencanaan, pengelolaan, dan pemantauan ekosistem mangrove secara nasional. Spesifikasi ini mendukung harmonisasi data spasial lintas sektor dan memperkuat implementasi Kebijakan Satu Peta serta pengelolaan wilayah pesisir yang berkelanjutan.
 
