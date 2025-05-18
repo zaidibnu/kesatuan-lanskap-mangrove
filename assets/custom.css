@@ -18,3 +18,15 @@
 .md-tabs__link:hover {
   color: #007f73 !important; /* opsional: sedikit lebih cerah saat hover */
 }
+.md-header__button,
+.md-search__icon,
+.md-nav__icon {
+  color: #005952 !important;
+  fill: #005952 !important;
+}
+.md-header__button:hover,
+.md-search__icon:hover,
+.md-nav__icon:hover {
+  color: #007f73 !important;
+  fill: #007f73 !important;
+}
