@@ -5,6 +5,7 @@ site_author: Direktorat PPEPD, Kementerian Lingkungan Hidup / Badan Perlindungan
 repo_url: https://github.com/username/spesifikasi-klm
 theme:
   name: material
+  logo: assets/logo.png
   language: id
   features:
     - navigation.top
