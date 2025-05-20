@@ -73,8 +73,6 @@ Individu mangrove muda dengan tinggi >1,5 meter dan diameter <10 cm yang berada 
 ### Tiang/Pohon
 Individu mangrove dewasa dengan diameter >10 cm, biasanya menjadi struktur kanopi utama dalam komunitas vegetasi mangrove.
 
-## 📘 Daftar Istilah Kesatuan Lanskap Mangrove (26–50)
-
 ### Redelineasi
 Proses evaluasi ulang dan penyesuaian batas spasial KLM berdasarkan pembaruan data citra, ground check, atau pertimbangan biofisik dan sosial terkini.
 
