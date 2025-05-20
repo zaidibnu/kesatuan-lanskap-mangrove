@@ -545,9 +545,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#konversi-koordinat" class="md-nav__link">
+  <a href="#catatan" class="md-nav__link">
     <span class="md-ellipsis">
-      Konversi Koordinat
+      Catatan
     </span>
   </a>
   
@@ -1010,9 +1010,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#konversi-koordinat" class="md-nav__link">
+  <a href="#catatan" class="md-nav__link">
     <span class="md-ellipsis">
-      Konversi Koordinat
+      Catatan
     </span>
   </a>
   
@@ -1040,21 +1040,28 @@
 <h1 id="sistem-referensi">Sistem Referensi<a class="headerlink" href="#sistem-referensi" title="Permanent link">&para;</a></h1>
 <p>Sistem referensi geospasial digunakan untuk memastikan bahwa seluruh data dalam Kesatuan Lanskap Mangrove (KLM) memiliki acuan koordinat yang seragam dan dapat dianalisis serta divisualisasikan secara konsisten dalam berbagai platform pemetaan.</p>
 <h2 id="sistem-koordinat-geografis">Sistem Koordinat Geografis<a class="headerlink" href="#sistem-koordinat-geografis" title="Permanent link">&para;</a></h2>
-<p>Setiap data KLM harus mengacu pada sistem koordinat geospasial yang ditentukan sesuai dengan SNI ISO dan spesifikasi BIG, yaitu:</p>
+<p>Setiap data KLM harus mengacu pada sistem koordinat geospasial berikut:</p>
 <ul>
-<li><strong>Sistem Koordinat Geografis</strong>:  </li>
-<li>Datum: WGS 84 (EPSG:4326)  </li>
+<li><strong>Sistem Koordinat Geografis</strong>  </li>
+<li>Datum: WGS 84  </li>
+<li>EPSG Code: 4326  </li>
 <li>Format: Derajat Desimal (Decimal Degrees)  </li>
 <li>Unit: Derajat  </li>
-<li>Digunakan sebagai sistem utama dalam pertukaran data nasional dan lintas sektor.</li>
+<li>Digunakan sebagai sistem acuan utama dalam pertukaran data nasional dan lintas sektor.</li>
 </ul>
 <h2 id="sistem-proyeksi-peta">Sistem Proyeksi Peta<a class="headerlink" href="#sistem-proyeksi-peta" title="Permanent link">&para;</a></h2>
-<p>Untuk keperluan visualisasi dalam aplikasi berbasis web dan pengolahan raster, sistem proyeksi berikut digunakan:</p>
 <ul>
-<li><strong>Proyeksi Web Mercator</strong>:  </li>
-<li>EPSG:3857  </li>
-<li>Digunakan dalam sebagian besar platform peta daring (web map), seperti Google Maps, Leaflet, OpenLayers, dan Mapbox.  </li>
-<li>Cocok untuk tile-based rendering dan keperluan tampilan publik secara interaktif.</li>
+<li><strong>Proyeksi Web Mercator</strong>  </li>
+<li>EPSG Code: 3857  </li>
+<li>Digunakan dalam pemetaan berbasis web (web map), seperti tile rendering dan tampilan publik berbasis web.  </li>
+<li>
+<p>Tidak direkomendasikan untuk pengukuran jarak dan luas.</p>
+</li>
+<li>
+<p><strong>Proyeksi Silinder (Cylindrical Projection)</strong>  </p>
+</li>
+<li>Direkomendasikan untuk <strong>perhitungan geometri seperti luas dan panjang</strong> pada satuan lanskap.  </li>
+<li>Contoh sistem proyeksi silinder adalah Transverse Mercator (seperti UTM), yang memberikan hasil lebih akurat untuk penghitungan spasial dalam area lokal.</li>
 </ul>
 <h2 id="ketentuan-umum">Ketentuan Umum<a class="headerlink" href="#ketentuan-umum" title="Permanent link">&para;</a></h2>
 <table>
@@ -1071,32 +1078,26 @@
 <td>Vektor Nasional</td>
 <td>EPSG:4326 (WGS 84)</td>
 <td>SHP, GeoJSON</td>
-<td>Pertukaran lintas instansi</td>
+<td>Pertukaran dan interoperabilitas</td>
 </tr>
 <tr>
 <td>Raster Web</td>
 <td>EPSG:3857 (Web Mercator)</td>
 <td>COG, MBTiles</td>
-<td>Visualisasi web dan tile</td>
+<td>Visualisasi peta daring</td>
 </tr>
 <tr>
-<td>Desktop GIS</td>
-<td>EPSG:4326 / lokal UTM</td>
-<td>GDB, SHP</td>
-<td>Analisis spasial lanjutan</td>
+<td>Kalkulasi Geometri</td>
+<td>EPSG:54034 Cylindrical Equal Area</td>
+<td>GPKG, SHP</td>
+<td>Perhitungan luas, panjang</td>
 </tr>
 </tbody>
 </table>
-<h2 id="konversi-koordinat">Konversi Koordinat<a class="headerlink" href="#konversi-koordinat" title="Permanent link">&para;</a></h2>
-<p>Dalam hal diperlukan konversi antar sistem koordinat, pengguna disarankan untuk menggunakan pustaka geospasial yang mendukung reproyeksi otomatis seperti:</p>
-<ul>
-<li><strong>GDAL/OGR</strong></li>
-<li><strong>QGIS/ArcGIS</strong></li>
-<li><strong>pyproj</strong> (Python)</li>
-<li><strong>Proj4js</strong> (JavaScript)</li>
-</ul>
+<h2 id="catatan">Catatan<a class="headerlink" href="#catatan" title="Permanent link">&para;</a></h2>
+<p>Seluruh data spasial wajib mencantumkan sistem referensi koordinat secara eksplisit dalam metadata untuk memastikan konsistensi dan keterpaduan lintas sistem dan platform.</p>
 <hr />
-<p>Sistem referensi ini menjadi dasar utama dalam pemrosesan, penyajian, dan interoperabilitas data Kesatuan Lanskap Mangrove baik pada tingkat pusat maupun daerah, serta dalam platform daring nasional seperti Geoportal Satu Peta.</p>
+<p>Sistem referensi ini menjadi dasar utama dalam pemrosesan, penyajian, dan interoperabilitas data Kesatuan Lanskap Mangrove baik pada tingkat pusat maupun daerah, serta dalam integrasi ke dalam infrastruktur data spasial nasional.</p>
 
 
 
