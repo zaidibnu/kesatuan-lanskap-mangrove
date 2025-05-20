@@ -16,6 +16,8 @@
         <link rel="prev" href="../../istilah-definisi/">
       
       
+        <link rel="next" href="../sistem-referensi/">
+      
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
@@ -193,9 +195,7 @@
 
 
 
-  
-
-<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigasi" data-md-level="0">
+<nav class="md-nav md-nav--primary" aria-label="Navigasi" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../.." title="Spesifikasi IG Kesatuan Lanskap Mangrove" class="md-nav__button md-logo" aria-label="Spesifikasi IG Kesatuan Lanskap Mangrove" data-md-component="logo">
       
@@ -456,6 +456,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Struktur & Isi Data
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -467,6 +480,61 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Daftar isi">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Daftar isi
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#klasifikasi-dan-struktur-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Klasifikasi dan Struktur Data
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hierarki-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hierarki Data
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#format-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Format Data
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#catatan" class="md-nav__link">
+    <span class="md-ellipsis">
+      Catatan
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -480,7 +548,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../sistem-referensi.md" class="md-nav__link">
+      <a href="../sistem-referensi/" class="md-nav__link">
         
   
   
@@ -503,7 +571,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../metadata.md" class="md-nav__link">
+      <a href="../metadata/" class="md-nav__link">
         
   
   
@@ -897,6 +965,68 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Daftar isi">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Daftar isi
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#klasifikasi-dan-struktur-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Klasifikasi dan Struktur Data
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hierarki-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hierarki Data
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#format-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Format Data
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#catatan" class="md-nav__link">
+    <span class="md-ellipsis">
+      Catatan
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           
             <div class="md-content" data-md-component="content">
@@ -911,6 +1041,104 @@
 
 <h1 id="struktur-isi-data">Struktur &amp; Isi Data<a class="headerlink" href="#struktur-isi-data" title="Permanent link">&para;</a></h1>
 <p>Spesifikasi informasi geospasial Kesatuan Lanskap Mangrove (KLM) mencakup struktur dan klasifikasi data yang dirancang untuk menjamin interoperabilitas, konsistensi, dan akurasi dalam pengelolaan data tematik mangrove. Komponen struktur data disusun mengikuti prinsip klasifikasi hierarkis dan atribut deskriptif yang relevan terhadap kebutuhan tata ruang dan konservasi.</p>
+<h2 id="klasifikasi-dan-struktur-data">Klasifikasi dan Struktur Data<a class="headerlink" href="#klasifikasi-dan-struktur-data" title="Permanent link">&para;</a></h2>
+<p>Struktur data KLM terdiri dari entitas spasial poligon yang merepresentasikan unit lanskap mangrove pada skala minimum 1:50.000. Setiap fitur dilengkapi dengan atribut utama sebagai berikut:</p>
+<table>
+<thead>
+<tr>
+<th>No</th>
+<th>Field Name</th>
+<th>Tipe Data</th>
+<th>Deskripsi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><code>OID</code></td>
+<td>Integer</td>
+<td>Kode fitur objek unik</td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>WPEM</code></td>
+<td>String</td>
+<td>Wilayah Pembentuk Ekosistem Mangrove</td>
+</tr>
+<tr>
+<td>3</td>
+<td><code>KLM</code></td>
+<td>String</td>
+<td>Nama Kesatuan Lanskap Mangrove</td>
+</tr>
+<tr>
+<td>4</td>
+<td><code>SKLM</code></td>
+<td>String</td>
+<td>Sub-Kesatuan Lanskap Mangrove</td>
+</tr>
+<tr>
+<td>5</td>
+<td><code>UPM</code></td>
+<td>String</td>
+<td>Unit Pengelolaan Mangrove</td>
+</tr>
+<tr>
+<td>6</td>
+<td><code>TIPOLOGI</code></td>
+<td>String</td>
+<td>Tipologi mangrove (fringe, basin, riverine, overwash, dwarf)</td>
+</tr>
+<tr>
+<td>7</td>
+<td><code>SLAH</code></td>
+<td>String</td>
+<td>Sistem Lahan (misal: KJP, KHY)</td>
+</tr>
+<tr>
+<td>8</td>
+<td><code>FKAWASAN</code></td>
+<td>String</td>
+<td>Fungsi kawasan hutan</td>
+</tr>
+<tr>
+<td>9</td>
+<td><code>FKLM</code></td>
+<td>String</td>
+<td>Fungsi KLM (lindung/budidaya)</td>
+</tr>
+<tr>
+<td>10</td>
+<td><code>LUAS</code></td>
+<td>Decimal</td>
+<td>Luas area dalam hektar</td>
+</tr>
+</tbody>
+</table>
+<h2 id="hierarki-data">Hierarki Data<a class="headerlink" href="#hierarki-data" title="Permanent link">&para;</a></h2>
+<p>Struktur KLM juga mengikuti hierarki sebagai berikut:</p>
+<ul>
+<li>
+<p><strong>WPEM (Wilayah Pembentuk Ekosistem Mangrove)</strong><br />
+  Unit spasial awal yang terbentuk dari substrat, dinamika pesisir, dan potensi habitat.</p>
+</li>
+<li>
+<p><strong>KLM (Kesatuan Lanskap Mangrove)</strong><br />
+  Unit lanskap utama yang mencerminkan batas ekosistem dan konteks sosial-ekonomi.</p>
+</li>
+<li>
+<p><strong>SKLM (Sub-Kesatuan Lanskap Mangrove)</strong><br />
+  Unit analisis lanjutan untuk klasifikasi berdasarkan kedekatan tipologi dan geomorfologi.</p>
+</li>
+<li>
+<p><strong>UPM (Unit Pengelolaan Mangrove)</strong><br />
+  Unit terkecil berupa mosaik vegetasi atau satuan pengelolaan spesifik.</p>
+</li>
+</ul>
+<h2 id="format-data">Format Data<a class="headerlink" href="#format-data" title="Permanent link">&para;</a></h2>
+<p>Struktur data disajikan dalam format shapefile (.shp) dan/atau geodatabase (.gdb) dengan sistem koordinat yang sesuai. Setiap layer harus disertai metadata spasial dan referensi atribut yang konsisten.</p>
+<h2 id="catatan">Catatan<a class="headerlink" href="#catatan" title="Permanent link">&para;</a></h2>
+<p>Struktur dan isi data ini mengikuti standar minimum dari SNI ISO 19131 dan SNI ISO 19157, serta disesuaikan dengan kebutuhan pengelolaan kawasan berbasis ekosistem mangrove secara nasional:contentReference[oaicite:0]{index=0}.</p>
 
 
 
@@ -965,7 +1193,7 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "content.code.annotate", "toc.integrate", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Tersalin ke clipboard", "clipboard.copy": "Salin ke clipboard", "search.result.more.one": "1 lagi di halaman ini", "search.result.more.other": "# lagi di halaman ini", "search.result.none": "Tidak ada dokumen yang sesuai", "search.result.one": "1 dokumen ditemukan", "search.result.other": "# dokumen ditemukan", "search.result.placeholder": "Ketik untuk mulai pencarian", "search.result.term.missing": "Tidak ada", "select.version": "Pilih versi"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "content.code.annotate", "toc.follow", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Tersalin ke clipboard", "clipboard.copy": "Salin ke clipboard", "search.result.more.one": "1 lagi di halaman ini", "search.result.more.other": "# lagi di halaman ini", "search.result.none": "Tidak ada dokumen yang sesuai", "search.result.one": "1 dokumen ditemukan", "search.result.other": "# dokumen ditemukan", "search.result.placeholder": "Ketik untuk mulai pencarian", "search.result.term.missing": "Tidak ada", "select.version": "Pilih versi"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
