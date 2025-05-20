@@ -1,63 +1,139 @@
-# Istilah dan Definisi
-
-Dokumen ini menggunakan sejumlah istilah teknis yang perlu dipahami secara konsisten untuk menjamin keseragaman pemahaman di antara para pelaksana dan pengguna data. Berikut adalah definisi dari istilah-istilah utama dalam penyusunan Informasi Geospasial Kesatuan Lanskap Mangrove (KLM):
-
----
-
 ### Kesatuan Lanskap Mangrove (KLM)
 Unit lanskap mangrove yang dibatasi secara geomorfologis (seperti sungai besar atau bentang alam khas lainnya) dan memiliki karakteristik ekologis yang relatif homogen. Digunakan sebagai satuan dasar dalam perencanaan pengelolaan dan rehabilitasi mangrove.
+
+### Ekosistem Mangrove
+Ekosistem pesisir tropis yang didominasi oleh vegetasi mangrove dan berfungsi sebagai zona transisi antara darat dan laut dengan nilai ekologis tinggi.
+
+### Tipologi Mangrove
+Klasifikasi mangrove berdasarkan kombinasi geomorfologi, tipe pasang surut, dan struktur vegetasi untuk memahami dinamika dan zonasi habitat.
+
+### Habitat Mangrove
+Wilayah yang menyediakan kondisi lingkungan optimal untuk tumbuhnya mangrove, seperti substrat berlumpur, kadar salinitas, dan pengaruh pasang surut.
 
 ### Fungsi Ekosistem Mangrove
 Peran ekologis, sosial, dan legal dari ekosistem mangrove dalam menyediakan jasa lingkungan seperti perlindungan pantai, habitat keanekaragaman hayati, dan mata pencaharian masyarakat.
 
-### CVI (Coastal Vulnerability Index)
-Indeks kerentanan pesisir yang mengukur tingkat risiko kerusakan kawasan pantai akibat faktor biofisik dan aktivitas manusia.
+### Pemetaan Tematik
+Teknik pemetaan berbasis GIS yang menyajikan informasi spesifik, seperti zonasi fungsi, distribusi mangrove, atau kerentanan ekosistem.
 
-### E. Footprint (Ecological Footprint)
-Indikator yang menggambarkan tekanan aktivitas manusia terhadap ekosistem mangrove, termasuk konversi lahan, ketergantungan ekonomi, dan intensitas pemanfaatan.
+### Delineasi
+Proses penetapan batas spasial terhadap suatu objek geografis berdasarkan analisis biofisik dan interpretasi citra.
 
-### INP (Indeks Nilai Penting)
-Indikator dominansi suatu spesies vegetasi, dihitung dari kombinasi frekuensi relatif dan kerapatan relatif.
+### Ground Check
+Verifikasi lapangan yang dilakukan untuk memastikan kesesuaian interpretasi citra dengan kondisi nyata di lapangan.
 
-### Shannon-Wiener Index (H’)
-Ukuran keanekaragaman hayati yang mempertimbangkan jumlah spesies dan kelimpahan relatifnya dalam suatu komunitas.
+### Uji Akurasi
+Evaluasi terhadap ketepatan hasil interpretasi peta dengan membandingkan data hasil interpretasi dengan data referensi atau ground truth.
 
-### Tuplah
-Singkatan dari "Tutup Lahan", yaitu deskripsi kondisi aktual penggunaan lahan seperti hutan, tambak, semak, atau permukiman.
+### Coastal Vulnerability Index (CVI)
+Indeks komposit untuk menilai tingkat kerentanan wilayah pesisir terhadap ancaman perubahan iklim, abrasi, dan banjir rob.
 
-### Kerapatan Relatif (KR)
-Persentase jumlah individu suatu spesies dibandingkan dengan jumlah total individu seluruh spesies pada lokasi pengamatan.
+### Biomassa Mangrove
+Jumlah total massa hidup mangrove (biasanya diukur dalam ton bahan kering per hektar) yang penting dalam perhitungan karbon dan ekosistem.
 
-### Frekuensi Relatif (FR)
-Proporsi jumlah plot pengamatan di mana suatu spesies ditemukan dibandingkan total jumlah plot.
+### Cadangan Karbon
+Jumlah karbon yang tersimpan dalam biomassa dan tanah ekosistem mangrove yang berfungsi sebagai penyerap karbon (carbon sink).
 
-### Biomassa
-Jumlah total massa organisme hidup (biasanya tumbuhan mangrove) yang digunakan untuk perhitungan stok karbon dan konservasi.
+### Substrat
+Lapisan dasar tempat tumbuhnya mangrove, bisa berupa lumpur, pasir, atau campurannya, yang menentukan karakter habitat.
 
-### HCV (High Conservation Value)
-Kawasan bernilai konservasi tinggi yang penting untuk keanekaragaman hayati, fungsi ekosistem, atau nilai sosial budaya masyarakat.
+### Biofisik
+Kondisi fisik dan biotik wilayah, termasuk struktur vegetasi, substrat, salinitas, dan parameter lingkungan lainnya.
 
-### Sempadan
-Zona perlindungan ekologis di sekitar sungai atau pantai, biasanya dengan radius tertentu (misalnya 50–517 meter), yang wajib dipertahankan.
+### Sosio-ekonomi
+Aspek sosial dan ekonomi masyarakat sekitar mangrove, termasuk ketergantungan, mata pencaharian, dan pola pemanfaatan.
+
+### Zonasi
+Pengelompokan wilayah mangrove berdasarkan fungsi dan tingkat perlindungan/pemanfaatannya, seperti lindung atau budidaya.
+
+### Rencana Perlindungan dan Pengelolaan Ekosistem Mangrove (RPPEM)
+Dokumen rencana strategis yang mengatur tindakan konservasi, rehabilitasi, dan pemanfaatan ekosistem mangrove.
+
+### Interaksi Antropogenik
+Pengaruh dan aktivitas manusia terhadap ekosistem mangrove seperti alih fungsi lahan, tambak, pemukiman, dan infrastruktur.
+
+### Indeks Keanekaragaman
+Ukuran statistik yang menunjukkan jumlah dan distribusi spesies dalam suatu komunitas vegetasi atau fauna.
+
+### Indeks Nilai Penting (INP)
+Indikator ekologi gabungan yang mencerminkan dominansi suatu spesies dalam komunitas berdasarkan kerapatan, frekuensi, dan penutupan.
+
+### Nested Plot
+Desain petak ukur bertingkat (semai-pancang-pohon) untuk mencatat parameter vegetasi secara sistematis dan komprehensif.
+
+### Transek
+Garis lurus yang digunakan dalam survei lapangan untuk pengambilan sampel dan pengamatan secara sistematik.
+
+### Semai
+Individu mangrove berukuran kecil dengan tinggi <1,5 meter, digunakan sebagai indikator regenerasi alami.
+
+### Pancang/Sapihan
+Individu mangrove muda dengan tinggi >1,5 meter dan diameter <10 cm yang berada pada tahap pertumbuhan menengah.
+
+### Tiang/Pohon
+Individu mangrove dewasa dengan diameter >10 cm, biasanya menjadi struktur kanopi utama dalam komunitas vegetasi mangrove.
+
+## 📘 Daftar Istilah Kesatuan Lanskap Mangrove (26–50)
 
 ### Redelineasi
-Proses peninjauan ulang batas spasial suatu unit (misalnya KLM) berdasarkan data terbaru atau hasil validasi lapangan.
+Proses evaluasi ulang dan penyesuaian batas spasial KLM berdasarkan pembaruan data citra, ground check, atau pertimbangan biofisik dan sosial terkini.
 
-### AHC (Agglomerative Hierarchical Clustering)
-Metode pengelompokan multivariat untuk menyusun tipologi desa berdasarkan atribut sosial-ekonomi dan ekologi.
+### Batas Bio-Geofisik
+Batas wilayah KLM yang ditentukan berdasarkan karakteristik biofisik seperti vegetasi dominan, aliran sungai, sistem lahan, dan bentang alam.
+
+### Sistem Lahan
+Klasifikasi wilayah berdasarkan kombinasi faktor geomorfologi, tanah, dan vegetasi alami untuk memahami kesesuaian lahan terhadap vegetasi mangrove.
 
 ### Tipologi Desa-Mangrove
-Klasifikasi desa berdasarkan parameter seperti kepadatan penduduk, luas mangrove, jarak ke ekosistem, dan bentuk pemanfaatan lahan.
+Kategori desa di sekitar KLM berdasarkan parameter kependudukan, ketergantungan ekonomi terhadap mangrove, dan jarak ke habitat mangrove.
 
-### KLM Indikatif
-Batas awal unit KLM yang ditetapkan berdasarkan data sekunder atau hasil interpretasi awal sebelum validasi lapangan.
+### Geodatabase
+Basis data spasial yang tersusun secara terstruktur dan menyimpan informasi spasial (geometri) dan atribut non-spasial secara terintegrasi.
 
-### KLM Definitif
-Penetapan akhir batas unit KLM yang telah divalidasi secara spasial dan diverifikasi melalui survei lapangan.
+### Informasi Geospasial Tematik (IGT)
+Informasi spasial yang menggambarkan tema spesifik seperti ekosistem mangrove, kerentanan pesisir, atau pemanfaatan kawasan, berbasis data geospasial dasar.
 
-### Antropogenik
-Segala bentuk pengaruh terhadap lingkungan yang berasal dari aktivitas manusia, seperti tambak, pelabuhan, atau permukiman.
+### Metadata
+Informasi deskriptif yang menjelaskan konten, kualitas, kondisi, dan karakteristik teknis suatu set data geospasial untuk keperluan dokumentasi dan interoperabilitas.
 
-### Land System (LSYS)
-Klasifikasi satuan lahan berdasarkan kombinasi geomorfologi, tanah, dan tutupan vegetasi untuk analisis habitat dan fungsi.
+### Overlap atau Overlay Peta
+Metode analisis spasial untuk menggabungkan dua atau lebih layer peta guna memperoleh hasil kombinasi seperti zonasi fungsi, tumpang tindih pemanfaatan, dll.
 
+### Shapefile
+Format standar dalam GIS untuk menyimpan fitur vektor (titik, garis, poligon) dan atributnya dalam file yang dapat digunakan di berbagai perangkat lunak GIS.
+
+### Interoperabilitas Data
+Kemampuan data spasial untuk digunakan lintas sistem dan aplikasi tanpa kehilangan informasi, mendukung integrasi nasional seperti Kebijakan Satu Peta.
+
+### Validasi Lapangan
+Langkah verifikasi fisik terhadap data hasil pemetaan dengan mengunjungi lokasi secara langsung untuk memastikan kesesuaian dan akurasi spasial.
+
+### Peta Habitat
+Peta tematik yang menunjukkan distribusi spasial habitat mangrove berdasarkan hasil interpretasi citra, survei vegetasi, dan klasifikasi geomorfologi.
+
+### Arahan Fungsi Ekosistem
+Petunjuk atau rencana pengelolaan fungsi suatu kawasan ekosistem mangrove, seperti fungsi lindung, budidaya, konservasi, atau transisi.
+
+### Sempadan Sungai dan Pantai
+Zona penyangga di sekitar aliran sungai atau garis pantai yang ditetapkan sebagai kawasan lindung untuk menjaga kestabilan ekosistem pesisir.
+
+### Geo-tagging
+Proses penambahan informasi koordinat geografis ke suatu objek atau data, seperti titik pengambilan sampel atau lokasi foto survei lapangan.
+
+### Remote Sensing
+Teknologi penginderaan jauh yang digunakan untuk memperoleh informasi permukaan bumi dari citra satelit atau pesawat tanpa kontak langsung.
+
+### Interpretasi Citra
+Proses analisis visual atau digital terhadap citra penginderaan jauh untuk mengidentifikasi tutupan lahan, habitat, dan kondisi vegetasi.
+
+### Citra Multispektral
+Citra yang merekam informasi dalam beberapa panjang gelombang spektrum elektromagnetik, digunakan untuk klasifikasi vegetasi dan deteksi perubahan tutupan.
+
+### Indeks Kesehatan Mangrove (MHI)
+Parameter komposit yang mengukur kondisi kesehatan ekosistem mangrove berdasarkan struktur tegakan, regenerasi, dan gangguan antropogenik.
+
+### Salinitas Permukaan
+Tingkat keasinan air pada lapisan permukaan yang mempengaruhi distribusi spesies mangrove dan karakteristik habitat.
+
+### pH Tanah/Substrat
+Ukuran keasaman atau kebasaan tanah di habitat mang
