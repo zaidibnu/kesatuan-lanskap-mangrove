@@ -36,9 +36,7 @@ nav:
       - Batasan Pemanfaatan: kualitas/batasan.md
   - Identifikasi Produk Data: produk-data.md
   - Use Cases:
-      - KKPR Berusaha: use-case/kkpr-berusaha.md
-      - KKPR Non-Berusaha: use-case/kkpr-non-berusaha.md
-      - KKPR Strategis Nasional: use-case/kkpr-strategis.md
+      - Carbon: carbon.md
   - Lampiran: lampiran.md
 
 plugins:
